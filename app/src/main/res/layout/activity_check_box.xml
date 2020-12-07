@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="10dp"
+  android:orientation="vertical"
+  tools:context=".CheckBox">
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Which do you like application?"
+    android:textSize="28sp"></TextView>
+
+  <CheckBox
+    android:id="@+id/chkFilm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Film +"
+    android:textSize="28sp">
+  </CheckBox>
+
+  <CheckBox
+    android:id="@+id/chkFPT"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="FPT Play"
+    android:textSize="28sp">
+  </CheckBox>
+  <CheckBox
+    android:id="@+id/chkClip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Clip TV"
+    android:textSize="28sp">
+  </CheckBox>
+  <Button
+    android:id="@+id/btnConfirm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Confirm"
+    android:textSize="26sp"
+    android:layout_gravity="center"
+    ></Button>
+
+  <TextView
+    android:id="@+id/txtResult"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="28sp"
+    android:text="You choose: "
+    android:background="#931F1F"
+    android:textColor="#FFFFFF"
+    >
+  </TextView>
+</LinearLayout>
